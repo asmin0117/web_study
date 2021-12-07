@@ -1,0 +1,27 @@
+{
+  "name": "studyserver",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev-start": "pm2 start --interpreter babel-node ./bin/www --name studyserver --watch"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1"
+  },
+  "description": "study about aws ec",
+  "main": "app.js",
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/node": "^7.16.0",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.16.4"
+  },
+  "author": "",
+  "license": "ISC"
+}
